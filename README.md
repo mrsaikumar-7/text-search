@@ -43,7 +43,7 @@ To run this project locally using Docker, follow these steps:
 # API end points
 ## User Registration
 
-**Endpoint:** `/auth/register/`
+**Endpoint:** `api/auth/register/`
 
 **Methods:** 
 - `POST`: Register a new user.
@@ -75,7 +75,7 @@ To run this project locally using Docker, follow these steps:
 
 ## User Login
 
-**Endpoint:** `/auth/login/`
+**Endpoint:** `api/auth/login/`
 
 **Methods:** 
 - `POST`: Log in with existing credentials.
@@ -152,6 +152,7 @@ authorizaiton : Token faeba5b9feb36ff18648f701c81d9c3ace67d1ad
 - `PUT`: Update a specific paragraph.
 
 **Authentication Required:** Yes
+
 **Sample Request (PUT):**
 ```json
 {
@@ -169,6 +170,7 @@ authorizaiton : Token faeba5b9feb36ff18648f701c81d9c3ace67d1ad
 - `DELETE`: Update a specific paragraph.
 
 **Authentication Required:** Yes
+
 **Sample Request (PUT):**
 ```json
 {
@@ -207,6 +209,13 @@ authorizaiton : Token faeba5b9feb36ff18648f701c81d9c3ace67d1ad
 }
 ```
 
+
+
+### Reporting Issues
+
+If you encounter any issues or have suggestions for improvements, please create an issue in the [issue tracker](https://github.com/mrsaikumar-7/text-search/issues).
+
+# Happy Coding 😊
 
 
 
