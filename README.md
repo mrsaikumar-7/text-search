@@ -14,7 +14,7 @@ To run this project locally using Docker, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/your-username/your-project.git](https://github.com/mrsaikumar-7/text-search.git
    cd your-project
 2. Build Docker Images:
    ```bash
@@ -22,11 +22,11 @@ To run this project locally using Docker, follow these steps:
 3. Start the Docker containers:
    ```bash
    docker-compose up
-4. The database migrations will automatically done by the docker itself.
-5. Now we have to create superuser:
+5. The database migrations will automatically done by the docker itself.
+6. Now we have to create superuser:
    ```bash
    docker-compose exec web python manage.py createsuperuser
-6. Now it will ask for the username, name and password:
+7. Now it will ask for the username, name and password:
    ```bash
    PS C:\projects\django\textsearch> docker-compose exec web python manage.py createsuperuser
    Email: admin@gmail.com
@@ -35,9 +35,9 @@ To run this project locally using Docker, follow these steps:
    Password (again):*****
    Creating superuser with password: demo@123
    Creating admin  with password: demo@123
-7. now we can log in to the admin panel by using the end point  [http://localhost:8000/admin/](url):
-8. The application should now be accessible at http://localhost:8000/.:
-9. To stop the containers use:
+8. now we can log in to the admin panel by using the end point  [http://localhost:8000/admin/](url):
+9. The application should now be accessible at http://localhost:8000/.:
+10. To stop the containers use:
    ```bash
    docker-compose down
 # API end points
