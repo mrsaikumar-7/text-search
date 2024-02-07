@@ -14,7 +14,7 @@ To run this project locally using Docker, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-project.git](https://github.com/mrsaikumar-7/text-search.git
+   git clone https://github.com/mrsaikumar-7/text-search.git
    cd your-project
 2. Build Docker Images:
    ```bash
